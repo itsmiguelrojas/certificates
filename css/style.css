@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  color: #FFF;
+}
+
+.background-image {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background-size: cover;
+}
+
+.background-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  width: 0;
+  filter: brightness(0.5) blur(3px);
+}
+
+.container {
+  position: relative;
+}
+
+h1 {
+  font-weight: 300;
+  font-family: "Open Sans"
+}
+
+.lead {
+  font-family: "Marck Script";
+}
+
+.red {
+  color: #FF0000;
+}
+
+.certificates {
+  overflow-y: auto;
+  height: 85vh;
+  overflow-x: hidden;
+}
+
+.img-thumbnail {
+  margin: 1em auto;
+  cursor: pointer;
+}
+
+.modal-footer {
+  color: #000;
+}
+
+footer .bi {
+  color: #FFF;
+  letter-spacing: 1em;
+  font-size: 1.2em;
+  transition: color ease 0.8s;
+}
+
+footer p {
+  font-family: 'Open Sans';
+}
+
+footer .bi:hover {
+  color: #9ACD32;
+}
