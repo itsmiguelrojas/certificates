@@ -7,13 +7,9 @@ body {
 }
 
 .background-image {
-  background: url("../img/background-portrait-2.png") no-repeat center center fixed;
+  background: url("../img/background-portrait.png") no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh
-}
-
-.d-flex a {
-  width: 18em;
 }
 
 .container-fluid {
@@ -42,6 +38,7 @@ h1 {
 .img-thumbnail {
   margin: 1em auto;
   cursor: pointer;
+  width: 18em;
 }
 
 .modal-footer {
@@ -64,13 +61,13 @@ footer .bi:hover {
 }
 
 @media (max-width: 1280px) {
-  .d-flex a {
+  .img-thumbnail {
     width: 12em;
   }
 }
 
 @media (max-width: 512px) {
-  .d-flex a {
+  .img-thumbnail {
     width: 8em;
   }
 }
