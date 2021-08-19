@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
@@ -13,11 +13,11 @@
 </head>
 <body>
 
-  <div class="background-image">
+  <!-- <div class="background-image">
     <img src="img/background-portrait.png" alt="">
-  </div>
+  </div> -->
 
-  <div class="container py-5">
+  <div class="container-fluid py-5 background-image">
 
     <div class="row">
 
@@ -39,15 +39,17 @@
 
           <!--Images-->
 
-          <div class="col-6">
+          <div class="col-12 d-flex flex-wrap">
             <img src="img/github.jpg" alt="" class="img-thumbnail rounded" data-bs-toggle="modal" data-bs-target="#github-certificate">
-            <img src="img/covid19_1.jpg" alt="" class="img-thumbnail rounded" data-bs-toggle="modal" data-bs-target="#covid-inter">
-          </div>
-
-          <div class="col-6">
             <img src="img/latex_certificate.jpg" alt="" class="img-thumbnail rounded" data-bs-toggle="modal" data-bs-target="#latex-certificate">
+            <img src="img/covid19_1.jpg" alt="" class="img-thumbnail rounded" data-bs-toggle="modal" data-bs-target="#covid-inter">
             <img src="img/modelos_ml.jpg" alt="" class="img-thumbnail rounded" data-bs-toggle="modal" data-bs-target="#ml-certificate">
           </div>
+
+          <!-- <div class="col-6">
+            <img src="img/latex_certificate.jpg" alt="" class="img-thumbnail rounded" data-bs-toggle="modal" data-bs-target="#latex-certificate">
+            <img src="img/modelos_ml.jpg" alt="" class="img-thumbnail rounded" data-bs-toggle="modal" data-bs-target="#ml-certificate">
+          </div> -->
 
           <!--Modals-->
 

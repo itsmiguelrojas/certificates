@@ -3,31 +3,20 @@
 
 body {
   color: #FFF;
+  height: 100vh;
 }
 
 .background-image {
-  position: fixed;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
+  background: url("../img/background-portrait-2.png") no-repeat center center fixed;
   background-size: cover;
+  min-height: 100vh
 }
 
-.background-image img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  min-width: 50%;
-  min-height: 50%;
-  width: 0;
-  filter: brightness(0.5) blur(3px);
+img {
+  width: 18.5em;
 }
 
-.container {
+.container-fluid {
   position: relative;
 }
 
@@ -72,4 +61,16 @@ footer p {
 
 footer .bi:hover {
   color: #9ACD32;
+}
+
+@media (max-width: 1280px) {
+  img{
+    width: 15em;
+  }
+}
+
+@media (max-width: 512px) {
+  img {
+    width: 9em;
+  }
 }
