@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <title>My achievements | Miguel Rojas</title>
+</head>
+<body>
+
+  <div class="background-image">
+    <img src="img/background-portrait.png" alt="">
+  </div>
+
+  <div class="container py-5">
+
+    <div class="row">
+
+      <div class="col-lg-6 col-12">
+        <h1 class="text-center display-1">My certificates</h1>
+        <p class="text-center lead">A list for my certificates in courses I love. <span class="bi bi-suit-heart-fill red"></span></p>
+
+        <footer class="footer text-center">
+          <a href="https://github.com/itsmiguelrojas/" class="bi bi-github" target="_blank"></a>
+          <a href="https://www.instagram.com/itsmiguelrojas/" class="bi bi-instagram" target="_blank"></a>
+          <br>
+          <p>&copy; <span id="year"></span> Miguel Rojas. All rights reserved</p>
+        </footer>
+
+      </div>
+
+      <div class="col-lg-6 col-12 certificates">
+        <div class="row">
+
+          <!--Images-->
+
+          <div class="col-6">
+            <img src="img/github.jpg" alt="" class="img-thumbnail rounded" data-bs-toggle="modal" data-bs-target="#github-certificate">
+            <img src="img/covid19_1.jpg" alt="" class="img-thumbnail rounded" data-bs-toggle="modal" data-bs-target="#covid-inter">
+          </div>
+
+          <div class="col-6">
+            <img src="img/latex_certificate.jpg" alt="" class="img-thumbnail rounded" data-bs-toggle="modal" data-bs-target="#latex-certificate">
+            <img src="img/modelos_ml.jpg" alt="" class="img-thumbnail rounded" data-bs-toggle="modal" data-bs-target="#ml-certificate">
+          </div>
+
+          <!--Modals-->
+
+          <div class="modal fade" id="github-certificate" tabindex="-1" aria-labelledby="github-certificate" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                  <div class="modal-body">
+                    <img src="img/github.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="modal-footer">
+                    <p>
+                      <em><a href="https://www.udemy.com/certificate/UC-cba015d1-be20-4da3-b433-75b1e8e1811f/" target="_blank">100% Practical Git and GitHub (1h.)</a></em>
+                    </p>
+                    <p>I learned the basics of Git and how to implement it in the workflow</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal fade" id="ml-certificate" tabindex="-1" aria-labelledby="ml-certificate" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                    <div class="modal-body">
+                      <img src="img/modelos_ml.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="modal-footer">
+                      <p>
+                        <em><a href="https://www.udemy.com/certificate/UC-8ebf083d-fd7c-49f7-8faa-52870b7c71e5/" target="_blank">R Course for Machine Learning Basic Models (2h.)</a></em>
+                      </p>
+                      <p>I went through the most common ML implementations and practical uses of them</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal fade" id="covid-inter" tabindex="-1" aria-labelledby="covid-inter" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                      <div class="modal-body">
+                        <img src="img/covid19_1.jpg" alt="" class="img-fluid">
+                        <img src="img/covid19_2.jpg" alt="" class="img-fluid">
+                      </div>
+                      <div class="modal-footer">
+                        <p>
+                          <em>The Science Behind COVID19 and SARS-CoV-2 (60h.)</em>
+                        </p>
+                        <p>Intermediate level explanation of SARS-CoV-2 and its disease, COVID19. I saw what is SARS-CoV-2 and COVID19, risk factors, immunological aspects, mathematical models and bioethical aspects</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal fade" id="latex-certificate" tabindex="-1" aria-labelledby="latex-certificate" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                        <div class="modal-body">
+                          <img src="img/latex_certificate.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="modal-footer">
+                          <p>
+                            <em>LaTeX Course (Step by Step) from 0 (1.6h.)</em>
+                          </p>
+                          <p>Basics of LaTeX and an overview through Overleaf</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
+
+</body>
+</html>
