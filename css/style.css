@@ -12,8 +12,8 @@ body {
   min-height: 100vh
 }
 
-.d-flex img {
-  width: 18.5em;
+.d-flex a {
+  width: 18em;
 }
 
 .container-fluid {
@@ -64,13 +64,13 @@ footer .bi:hover {
 }
 
 @media (max-width: 1280px) {
-  .d-flex img{
-    width: 15em;
+  .d-flex a {
+    width: 12em;
   }
 }
 
 @media (max-width: 512px) {
-  .d-flex img {
-    width: 9em;
+  .d-flex a {
+    width: 8em;
   }
 }
