@@ -56,7 +56,12 @@ footer p {
   font-family: 'Open Sans';
 }
 
-footer .bi:hover {
+footer p a {
+  color: #FFF;
+  transition: color ease 0.8s;
+}
+
+footer .bi:hover, footer p a:hover {
   color: #9ACD32;
 }
 
