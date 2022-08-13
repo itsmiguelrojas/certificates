@@ -8,6 +8,7 @@ body {
 
 .background-image {
   background: linear-gradient(318deg, #00ABFF, #000000);
+  min-height: 100vh;
 }
 
 .container-fluid {
